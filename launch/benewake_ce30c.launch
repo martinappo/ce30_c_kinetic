@@ -11,4 +11,7 @@
 		     blue again. Please be careful that the ip cannot be reset if you forget the new one! -->
 		<!--param name="newIP" type="string" value="192.168.1.80" /--> 
 	</node>
+
+	<node pkg="tf" type="static_transform_publisher" name="ce30_to_map" args="0 0 0 0 0 0 map ce30c_lidar 1000"/>
+
 </launch>
